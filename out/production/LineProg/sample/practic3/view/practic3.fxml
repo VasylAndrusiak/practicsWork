@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.practic3.controllers.Practic3">
+   <children>
+      <Button fx:id="ok3" layoutX="93.0" layoutY="335.0" mnemonicParsing="false" text="Ok">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel3" layoutX="417.0" layoutY="335.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="118.0" layoutY="14.0" text="Завдання лабораторної">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="251.0" fitWidth="574.0" layoutX="13.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Pictures/Screenshots/Снимок%20экрана%20(63).png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="362.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.practic1.controllers.Practic1">
+   <children>
+      <ImageView fitHeight="190.0" fitWidth="581.0" layoutX="10.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IdeaProjects/LineProg/src/sample/image/task1.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="cancel1Task" layoutX="411.0" layoutY="292.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="ok1Task" layoutX="68.0" layoutY="292.0" mnemonicParsing="false" text="Ok">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="36.0" layoutY="25.0" text="Завдання лабораторної роботи №1">
+         <font>
+            <Font name="System Bold Italic" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="81.0" layoutY="17.0" prefHeight="99.0" prefWidth="446.0" text="Виберіть практичну">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="132.0" text="Практична №1">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="184.0" text="Практична №2">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="130.0" layoutY="531.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="practic1" layoutX="16.0" layoutY="129.0" mnemonicParsing="false" text="1">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic2" layoutX="16.0" layoutY="181.0" mnemonicParsing="false" text="2">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic3" layoutX="16.0" layoutY="232.0" mnemonicParsing="false" text="3">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic4" layoutX="16.0" layoutY="283.0" mnemonicParsing="false" text="4">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic5" layoutX="16.0" layoutY="334.0" mnemonicParsing="false" text="5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic6" layoutX="16.0" layoutY="385.0" mnemonicParsing="false" text="6">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic7" layoutX="16.0" layoutY="439.0" mnemonicParsing="false" text="7">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic19" layoutX="16.0" layoutY="544.0" mnemonicParsing="false" text="9">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic8" layoutX="16.0" layoutY="493.0" mnemonicParsing="false" text="8">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="69.0" layoutY="235.0" text="Практична №3">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="496.0" text="Практична №8">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="286.0" text="Практична №4">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="337.0" text="Практична №5">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="388.0" text="Практична №6">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="442.0" text="Практична №7">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="69.0" layoutY="547.0" text="Практична №9">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="practic11" layoutX="282.0" layoutY="181.0" mnemonicParsing="false" text="11">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic10" layoutX="282.0" layoutY="130.0" mnemonicParsing="false" text="10">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic12" layoutX="282.0" layoutY="233.0" mnemonicParsing="false" text="12">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic13" layoutX="282.0" layoutY="284.0" mnemonicParsing="false" text="13">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic14" layoutX="282.0" layoutY="335.0" mnemonicParsing="false" text="14">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic15" layoutX="282.0" layoutY="386.0" mnemonicParsing="false" text="15">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic18" layoutX="282.0" layoutY="544.0" mnemonicParsing="false" text="18">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic16" layoutX="282.0" layoutY="439.0" mnemonicParsing="false" text="16">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="practic17" layoutX="282.0" layoutY="493.0" mnemonicParsing="false" text="17">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="352.0" layoutY="496.0" text="Практична №17">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="184.0" text="Практична №11">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="132.0" text="Практична №10">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="546.0" text="Практична №18">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="442.0" text="Практична №16">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="286.0" text="Практична №13">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="389.0" text="Практична №15">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="235.0" text="Практична №12">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="338.0" text="Практична №14">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

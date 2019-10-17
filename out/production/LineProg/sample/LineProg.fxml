@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="calc" layoutX="55.0" layoutY="265.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="172.0" text="Розрахунок">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="out" layoutX="387.0" layoutY="288.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="182.0" text="Вийти">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="r1Value" layoutX="429.0" layoutY="132.0" prefHeight="35.0" prefWidth="149.0" promptText="4.21">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="zValue" layoutX="429.0" layoutY="226.0" prefHeight="35.0" prefWidth="149.0" promptText="11">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="arg" layoutX="55.0" layoutY="82.0" prefHeight="49.0" prefWidth="233.0" />
+      <TextField fx:id="uValue" layoutX="429.0" layoutY="177.0" prefHeight="35.0" prefWidth="149.0" promptText="3">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="fValue" layoutX="429.0" layoutY="82.0" prefHeight="35.0" prefWidth="149.0" promptText="89.52">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cancel" layoutX="55.0" layoutY="329.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="172.0" text="Скасувати">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="55.0" layoutY="34.0" text="Значення аргументу">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="84.0" text="Q=">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="34.0" text="Результат">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="134.0" text="R=">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="371.0" layoutY="179.0" text="G=">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="228.0" text="A=">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="arg1" layoutX="55.0" layoutY="187.0" prefHeight="49.0" prefWidth="233.0" />
+      <Label layoutX="79.0" layoutY="143.0" text="Значення фукції">
+         <font>
+            <Font name="System Italic" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

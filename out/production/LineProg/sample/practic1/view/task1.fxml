@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"  fx:controller="sample.practic1.controllers.Practic1Task">
+   <children>
+      <Label layoutX="45.0" layoutY="31.0" text="Значення аргументу">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="78.0" text="R =">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="31.0" text="Резултат">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="245.0" text="Q = ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="128.0" text="G = ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="185.0" text="A = ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="arg1Task" layoutX="52.0" layoutY="76.0" prefHeight="39.0" prefWidth="210.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="q1Task" layoutX="361.0" layoutY="243.0" prefHeight="39.0" prefWidth="210.0" text="89.52">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="a1Task" layoutX="361.0" layoutY="183.0" prefHeight="39.0" prefWidth="210.0" text="11">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="g1Task" layoutX="361.0" layoutY="128.0" prefHeight="39.0" prefWidth="210.0" text="3">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="r1Task" layoutX="361.0" layoutY="76.0" prefHeight="39.0" prefWidth="210.0" text="4.21">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="make1Task" layoutX="43.0" layoutY="342.0" mnemonicParsing="false" text="Розрахувати">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancel1Task" layoutX="251.0" layoutY="342.0" mnemonicParsing="false" text="Скасувати">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit1Task" layoutX="417.0" layoutY="342.0" mnemonicParsing="false" text="Вийти">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

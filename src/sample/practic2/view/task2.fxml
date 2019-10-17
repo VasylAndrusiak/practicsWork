@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.practic2.controllers.Practic2Task">
+   <children>
+      <Button fx:id="calculate2Task" layoutX="69.0" layoutY="200.0" mnemonicParsing="false" text="Розрахувати">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="95.0" layoutY="33.0" text="Аргумент">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="33.0" text="Результат">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="arg2Task" layoutX="53.0" layoutY="114.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="result2LTask" layoutX="314.0" layoutY="114.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cancel2Task" layoutX="347.0" layoutY="200.0" mnemonicParsing="false" text="Скасувати">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit2Task" layoutX="345.0" layoutY="272.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="162.0" text="Вийти">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
