@@ -1,9 +1,14 @@
 package sample.practic1.controllers;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
 public class Practic1 {
     @FXML
@@ -20,8 +25,39 @@ public class Practic1 {
 
     @FXML
     void initialize() {
-        assert cancel1Task != null : "fx:id=\"cancel1Task\" was not injected: check your FXML file 'practic1.fxml'.";
-        assert ok1Task != null : "fx:id=\"ok1Task\" was not injected: check your FXML file 'practic1.fxml'.";
+        ok1Task.setOnAction(event -> {
+            ok1Task.getScene().getWindow().hide();
 
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/sample/practic1/view/task1.fxml"));
+
+            try {
+                loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            Parent root = loader.getRoot();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+        });
+        cancel1Task.setOnAction(event -> {
+            cancel1Task.getScene().getWindow().hide();
+
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/sample/main.fxml"));
+
+            try {
+                loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            Parent root = loader.getRoot();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+        });
     }
 }
