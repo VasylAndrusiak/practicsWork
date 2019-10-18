@@ -14,7 +14,6 @@ import java.util.ResourceBundle;
 
 public class Controller{
 
-
     @FXML
     private ResourceBundle resources;
 
@@ -115,7 +114,7 @@ public class Controller{
             practic3.getScene().getWindow().hide();
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/practic3/view/task3.fxml"));
+            loader.setLocation(getClass().getResource("/sample/practic3/view/practic3.1.fxml"));
 
             try {
                 loader.load();
