@@ -60,10 +60,16 @@ public class Practic2Task {
             x = Double.parseDouble(arg2Task.getText());
             if(x == A){
                 res = (Math.pow(E, Math.abs(x + A))) * Math.sin(x);
-            }else{
+            }else if(x > A && x < Math.pow(A, 2.0)){
                 res = Math.pow(x - A, 2.0) * Math.pow(Math.cos(x), 2.0);
+            }else{
+                res = 0;
             }
             result2LTask.setText(Double.toString(res));
+        });
+        cancel2Task.setOnAction(event -> {
+            arg2Task.setText("");
+            result2LTask.setText("");
         });
     }
 }
