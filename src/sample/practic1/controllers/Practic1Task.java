@@ -102,7 +102,7 @@ public class Practic1Task {
             b = arg * g + a;
             y = Math.pow((6 + a), (1.0 / 3));
             d = r * 2;
-            res = (b * Math.sqrt(Math.pow(d, 2) + Math.log(y) - 0)) / r;
+            res = (b * Math.sqrt(Math.pow(d, 2) + Math.log(y) - r * q)) / r;
             text1 = Double.toString(res);
             double s = Math.sqrt(Math.pow(d, 2) + Math.log(y) - r * q);
             System.out.println("arg = " + arg);
