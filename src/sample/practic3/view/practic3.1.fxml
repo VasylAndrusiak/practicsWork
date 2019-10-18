@@ -33,7 +33,6 @@
          </font>
       </TextField>
       <TextArea fx:id="input" layoutX="7.0" layoutY="28.0" prefHeight="532.0" prefWidth="319.0" />
-      <ScrollBar layoutX="301.0" layoutY="28.0" orientation="VERTICAL" prefHeight="523.0" prefWidth="22.0" />
       <Label layoutX="435.0" layoutY="185.0" text="Крок">
          <font>
             <Font name="System Bold Italic" size="24.0" />
