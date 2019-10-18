@@ -81,7 +81,7 @@ public class Controller{
             practic1.getScene().getWindow().hide();
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/practic1/view/practic1.fxml"));
+            loader.setLocation(getClass().getResource("/sample/practic1/view/task1.fxml"));
 
             try {
                 loader.load();
@@ -98,7 +98,7 @@ public class Controller{
             practic2.getScene().getWindow().hide();
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/practic2/view/practic2.fxml"));
+            loader.setLocation(getClass().getResource("/sample/practic2/view/task2.fxml"));
 
             try {
                 loader.load();
@@ -115,7 +115,7 @@ public class Controller{
             practic3.getScene().getWindow().hide();
 
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(getClass().getResource("/sample/practic3/view/practic3.fxml"));
+            loader.setLocation(getClass().getResource("/sample/practic3/view/task3.fxml"));
 
             try {
                 loader.load();
