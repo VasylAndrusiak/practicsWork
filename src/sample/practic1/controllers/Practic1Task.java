@@ -97,6 +97,8 @@ public class Practic1Task {
             arg = Double.parseDouble(arg1Task.getText());
             g = Double.parseDouble(g1Task.getText());
             a =  Double.parseDouble(a1Task.getText());
+            q =  Double.parseDouble(q1Task.getText());
+            r =  Double.parseDouble(r1Task.getText());
             b = arg * g + a;
             y = Math.pow((6 + a), (1.0 / 3));
             d = r * 2;
