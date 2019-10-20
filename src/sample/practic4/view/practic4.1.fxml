@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="cancel4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="618.0" prefWidth="637.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.practic4.controllers.Practic4">
+   <children>
+      <Button fx:id="calculate" layoutX="415.0" layoutY="335.0" mnemonicParsing="false" text="Розрахувати">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="357.0" layoutY="75.0" text="Початкове значення у">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="output" layoutX="14.0" layoutY="79.0" prefHeight="525.0" prefWidth="339.0" />
+      <TextField fx:id="primaryValue" layoutX="387.0" layoutY="110.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="378.0" layoutY="158.0" text="Кінцеве значення у">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="finallyValue" layoutX="387.0" layoutY="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="474.0" layoutY="238.0" text="Крок">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="stepSize" layoutX="387.0" layoutY="273.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="386.0" layoutY="383.0" text="Кількість ітерацій">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="count" layoutX="391.0" layoutY="428.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="422.0" layoutY="484.0" mnemonicParsing="false" text="Скасувати">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit4" layoutX="445.0" layoutY="541.0" mnemonicParsing="false" text="Вийти">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="115.0" layoutY="22.0" text="Практична робота № 4">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

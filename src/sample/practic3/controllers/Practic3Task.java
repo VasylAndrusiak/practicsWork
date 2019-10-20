@@ -13,7 +13,6 @@ public class Practic3Task {
     private final double PI = 3.14;
 
     private double begin;
-    private double x;
     private int count;
     private double stepV;
     private double res;
@@ -57,7 +56,6 @@ public class Practic3Task {
         calculate.setOnAction(event -> {
             begin = Double.parseDouble(primaryValue.getText());
             stepV = Double.parseDouble(step.getText());
-            x = Double.parseDouble(arg.getText());
             count = Integer.parseInt(countIteration.getText());
 
             for(int i = 0; i < count;i++){

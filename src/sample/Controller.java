@@ -127,5 +127,22 @@ public class Controller{
             stage.setScene(new Scene(root));
             stage.showAndWait();
         });
+        practic4.setOnAction(event -> {
+            practic4.getScene().getWindow().hide();
+
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().getResource("/sample/practic4/view/practic4.1.fxml"));
+
+            try {
+                loader.load();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            Parent root = loader.getRoot();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(root));
+            stage.showAndWait();
+        });
     }
 }
