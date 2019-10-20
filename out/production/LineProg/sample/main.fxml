@@ -5,7 +5,6 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="626.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Label layoutX="81.0" layoutY="17.0" prefHeight="99.0" prefWidth="446.0" text="Виберіть практичну">
@@ -63,7 +62,7 @@
             <Font size="21.0" />
          </font>
       </Button>
-      <Button fx:id="practic19" layoutX="16.0" layoutY="544.0" mnemonicParsing="false" text="9">
+      <Button fx:id="practic9" layoutX="16.0" layoutY="544.0" mnemonicParsing="false" text="9">
          <font>
             <Font size="21.0" />
          </font>
