@@ -9,6 +9,12 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 public class Practic6 {
+    private final double PI = 3.14;
+    private int countArray;
+    private double x;
+    private double y;
+    private double [] arrX = new double[countArray];
+
     @FXML
     private ResourceBundle resources;
 
@@ -35,6 +41,13 @@ public class Practic6 {
 
     @FXML
     void initialize() {
+        calculate6.setOnAction(event -> {
+            countArray = Integer.parseInt(countElements.getText());
+            for(int  i = 0; i < countArray; i++){
+                arrX[i] = Double.parseDouble(inputElements.getText());
+                System.out.println(arrX);
+            }
+        });
 
 
     }
