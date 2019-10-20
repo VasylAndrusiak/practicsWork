@@ -42,6 +42,7 @@ public class Practic3Task {
 
     @FXML
     private TextField step;
+
     @FXML
     private TextArea input;
 
@@ -62,9 +63,9 @@ public class Practic3Task {
             for(int i = 0; i < count;i++){
                 begin += stepV;
                 res = (PI - Math.pow(begin, 2.0)) * (Math.sin(Math.sqrt((2.1 * B) + (begin * Math.log(A)))));
-                text3 += ("x = " + begin + "     y = " + res + "/n");
+                text3 += ("x = " + begin + "     y = " + res + '\n');
                 System.out.println("x = " + begin + "    y = " + res);
-                input.setText(text3 + "/n");
+                input.setText(text3);
                 //input.setTextFormatter();
             }
             finallyValue.setText(Double.toString(begin));
