@@ -3,6 +3,7 @@ package sample.practic1.controllers;
 import java.lang.Math;
 import java.io.IOException;
 import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -22,6 +23,7 @@ public class Practic1Task {
     private double q = 89.52;
     private double y;
     private double d;
+    private double as;
     private String text1;
 
     @FXML
@@ -103,8 +105,14 @@ public class Practic1Task {
             y = Math.pow((6 + a), (1.0 / 3));
             d = r * 2;
             res = (b * Math.sqrt(Math.pow(d, 2) + Math.log(y) - r * q)) / r;
-            text1 = Double.toString(res);
+            DecimalFormat df = new DecimalFormat("###.###");
+            System.out.println(df.format(res));
+            as = 875.34;
+            //as = df.format(res);
+            text1 = df.format(res);
+            //text1 = Double.toString(res);
             double s = Math.sqrt(Math.pow(d, 2) + Math.log(y) - r * q);
+            System.out.println("%2F" + text1);
             System.out.println("arg = " + arg);
             System.out.println("g = " + g);
             System.out.println("a = " + a);
@@ -115,6 +123,7 @@ public class Practic1Task {
             System.out.println("d = " + d);
             System.out.println("s = " + s);
             System.out.println("res = " + res);
+
             result.setText(text1);
         });
     }
